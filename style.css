@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(58, 116, 126);
+    color: white;
+}
+#nome{
+    font-size: 50px;
+}
+.titulo{
+    color: rgb(58, 116, 126);
+}
+nav ul{
+    box-sizing: border-box;
+    padding: 2%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color: aquamarine;
+    text-decoration: double;
+}
+a{
+    font-size: 20px;
+}
+article{
+    background-color: rgb(58, 116, 126);
+    color: white;
+    padding: 1%;
+    width: 620px;
+    height: 620px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+footer{
+    background-color: rgb(58, 116, 126);
+    color: white;
+}
+
+footer ul{
+    box-sizing: border-box;
+    padding: 2%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+span{
+    font-size: 20px;
+    text-align: center;
+}
